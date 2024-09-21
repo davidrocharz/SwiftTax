@@ -93,6 +93,7 @@ struct ContentView: View {
                 }
                     .disabled(preTaxPrice.isEmpty)
                     .padding()
+                    .font(.headline)
             }
             Spacer()
         }
