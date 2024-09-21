@@ -62,7 +62,7 @@ struct ContentView: View {
                         .font(.headline)
                         .multilineTextAlignment(.leading)
                         .padding()
-                    TextField("0%", text: $taxRate)
+                    TextField("0.00%", text: $taxRate)
                         .keyboardType(.decimalPad)
                         .focused($focusedField, equals: .taxRate)
                 }
