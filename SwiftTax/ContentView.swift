@@ -66,7 +66,8 @@ struct ContentView: View {
                         .keyboardType(.decimalPad)
                         .focused($focusedField, equals: .taxRate)
                 }
-            }.toolbar {
+            }.scrollDisabled(true)
+            .toolbar {
                 ToolbarItem(placement: .keyboard) {
                     Button("Done") {
                         focusedField = nil
