@@ -29,9 +29,22 @@
 		E4E52D192C9F35030052FA5B /* SwiftTaxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTaxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E42E52F72C9F5BB400DB5311 /* Exceptions for "SwiftTax" folder in "SwiftTax" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = E4E52CFE2C9F35020052FA5B /* SwiftTax */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E4E52D012C9F35020052FA5B /* SwiftTax */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E42E52F72C9F5BB400DB5311 /* Exceptions for "SwiftTax" folder in "SwiftTax" target */,
+			);
 			path = SwiftTax;
 			sourceTree = "<group>";
 		};
@@ -400,7 +413,7 @@
 				DEVELOPMENT_TEAM = BN4RBQ3CED;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_FILE = SwiftTax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -435,7 +448,7 @@
 				DEVELOPMENT_TEAM = BN4RBQ3CED;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_FILE = SwiftTax/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
